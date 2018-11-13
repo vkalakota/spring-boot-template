@@ -1,13 +1,10 @@
-package org.lm.util;
+package com.vk.util;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
-/**
- * System environment to access properties
- * Created by vkalakotahe7160 on 10/17/2018
- */
+
 @Configuration("sysEnvironment")
 @PropertySource(value = "classpath:application.properties")
 public class Environment {

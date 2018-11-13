@@ -1,13 +1,13 @@
-package org.lm;
+package com.vk;
 
+import com.vk.rest.Controller;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
-/**
- * Spring Boot application
- * Created by vkalakotahe7160 on 10/17/2018
- */
+
 @SpringBootApplication
+@ComponentScan()
 public class Application {
 
     public static void main(String[] args) {
